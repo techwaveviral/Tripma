@@ -20,7 +20,7 @@ const FlightDeals = () => {
         <div className="flex items-center justify-between">
           <p className="text-[#6E7491] font-medium md:font-bold sm:text-base md:text-[24px] md:leading-8">
             Find your next adventure <br className=" block sm:hidden " /> with
-            these <span className="text-[#605DEC]">flight deals</span>
+            these <span className="text-[#D3D300]">flight deals</span>
           </p>
           <div
             className="flex items-start justify-center gap-1 cursor-pointer"
@@ -54,7 +54,7 @@ const FlightDeals = () => {
           />
         </div>
 
-        <div className="w-full h-full flex flex-col dealsShadow rounded-b gap-2 ">
+        {/* <div className="w-full h-full flex flex-col dealsShadow rounded-b gap-2 ">
            <div className="w-full h-full">
              <img src={sunrise} alt="" className="w-full h-full object-cover rounded-t hidden md:block" />
              <img src={msunrise} alt="" className="w-full h-full object-cover rounded-t block md:hidden" />
@@ -62,7 +62,7 @@ const FlightDeals = () => {
            <div className="w-full h-full flex flex-col justify-center items-start gap-1 px-4 py-3">
           <div className="flex flex-row items-center justify-between w-full">
             <h1 className="text-[#6E7491] text-base font-medium capitalize">
-            Tsavo East National Park, <span className="text-[#605DEC]">Kenya</span>
+            Tsavo East National Park, <span className="text-[#D3D300]">Kenya</span>
             </h1>
             <p className="text-[#6E7491] text-base font-medium">$1,248</p>
           </div>
@@ -70,7 +70,7 @@ const FlightDeals = () => {
           Named after the Tsavo River, and opened in April 1984, Tsavo East National Park is one of the oldest parks in Kenya. It is located in the semi-arid Taru Desert.
           </p>
         </div>
-        </div>
+        </div> */}
 
       </div>
     </>

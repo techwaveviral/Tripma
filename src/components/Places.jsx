@@ -19,7 +19,7 @@ const Places = () => {
         <div className="flex items-center justify-between">
           <p className="text-[#6E7491] font-medium md:font-bold sm:text-base md:text-[24px] md:leading-8">
             Explore unique
-            <span className="text-[#54cdb7]"> places to stay</span>
+            <span className="text-[#D3D300]"> places to stay</span>
           </p>
           <div className="flex items-start justify-center gap-1 cursor-pointer" onClick={handleSeeAllClick}>
             <p className="text-[#A1B0CC] text-sm md:text-lg">All</p>

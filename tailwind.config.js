@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         Nunito: ['Nunito Sans', 'sans-serif']
+      },
+      backgroundImage: {
+        'hero-pattern': "url('src/assets/images/airplane.jpg')",
       }
     },
   },

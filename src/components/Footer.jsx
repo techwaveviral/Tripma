@@ -1,5 +1,5 @@
 import { appStore, facebook, googlePlay, instagram, twitter } from "../assets/icons"
-
+import { logo } from "../assets/logo";
 
 const Footer = () => {
   return (
@@ -7,11 +7,15 @@ const Footer = () => {
     <div className="mt-40 flex flex-col gap-5 px-8">
       <div className="flex justify-between items-start flex-col md:flex-row gap-7">
         <div className="flex justify-start items-start">
-          <h1 className="text-[#605DEC] font-bold text-2xl">Trimpa</h1>
+        <img
+            src={logo}
+            alt="Elite Air"
+            className="md:w-[300px] md:h-[100px] w-[120px] h-[50px] object-contain"
+          />
         </div>
         <ul className="flex flex-col items-start justify-start gap-3">
           <h2 className="text-[#6E7491] font-bold text-lg">About</h2>
-          <li className="footerLi">About Tripma</li>
+          <li className="footerLi">About Elite Air</li>
           <li className="footerLi">How it works</li>
           <li className="footerLi">Careers</li>
           <li className="footerLi">Blog</li>
@@ -39,8 +43,8 @@ const Footer = () => {
         </ul>
         <ul className="flex flex-col items-start justify-start  gap-3">
           <h2 className="text-[#6E7491] font-bold text-lg">Get the app</h2>
-          <li className="footerLi">Tripma for Android</li>
-          <li className="footerLi">Tripma for iOS</li>
+          <li className="footerLi">Elite Air for Android</li>
+          <li className="footerLi">Elite Air for iOS</li>
           <li className="footerLi">Mobile site</li>
           <img src={appStore} alt="appStore"  className=""/>
           <img src={googlePlay} alt="googlePlay" />
@@ -52,7 +56,7 @@ const Footer = () => {
           <img src={instagram} alt="twitter"  className="cursor-pointer object-cover w-5 h-5 sm:w-7 sm:h-7" />
           <img src={facebook} alt="twitter"   className="cursor-pointer object-cover w-5 h-5 sm:w-7 sm:h-7"/>
         </div>
-        <p className="text-[#7C8DB0] text-sm sm:text-base">&copy; 2023 Tripma incorporated</p>
+        <p className="text-[#7C8DB0] text-sm sm:text-base">&copy; 2024 Elite Air incorporated</p>
       </div>
     </div>
     </>

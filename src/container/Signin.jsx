@@ -35,17 +35,16 @@ const Signin = ({signin, setSignin}) => {
       <header className="flex flex-col justify-start">
         <div className="flex items-center justify-between">
           <h1 className="text-[#6E7491] text-[20px] sm:text-[24px] leading-5 sm:leading-8 font-bold ">
-            Sign up for Tripma
+            Sign up
           </h1>
           <MdOutlineClose
             className="text-[#6E7491] cursor-pointer"
             onClick={() => setSignin(!signin)}
           />
         </div>
-        <p className=" text-sm sm:text-[18px] leading-4 sm:leading-6 text-[#7C8DB0] mt-2">
-          Tripma is totally free to use. Sign up using your email address or
-          phone number below to get started.
-        </p>
+        {/* <p className=" text-sm sm:text-[18px] leading-4 sm:leading-6 text-[#7C8DB0] mt-2">
+         
+        </p> */}
       </header>
       <form className="flex flex-col gap-4">
         <input

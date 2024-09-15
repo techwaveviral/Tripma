@@ -74,10 +74,10 @@ const Hero = () => {
 
   return (
     <>
-      <header className="flex flex-col items-center relative w-full h-[529px] px-7 py-4">
+      <header className="flex flex-col items-center relative w-full h-[529px] px-7 py-4 ">
         <div className="flex justify-center items-center">
           <h1 className="font-extrabold text-5xl sm:text-7xl md:text-8xl text-center leading-[55px] sm:leading-[70px] md:leading-[90px] text-gradient">
-            It's more than <br /> just a trip
+          Fly luxury with Elite Air <br></br> the all-business-class airline
           </h1>
         </div>
 
@@ -214,7 +214,7 @@ const Hero = () => {
           </div>
 
           <Link to="/explore" className="w-full ">
-            <button className="w-full bg-[#605DEC] text-[#FAFAFA] text-lg leading-6 h-[45px] lg:h-[65px] px-5   lg:rounded-r-[4px]">
+            <button className="w-full bg-[#D3D300] text-[#FAFAFA] text-lg leading-6 h-[45px] lg:h-[65px] px-5   lg:rounded-r-[4px]">
               Search
             </button>
           </Link>
